@@ -1,0 +1,65 @@
+.frame{
+    display:flex;
+}
+
+.left{
+    flex:none;
+    width: 500px;
+}
+.right{
+    flex:none;
+    width:300px;
+}
+
+.secondframe{
+    display:flex;
+}
+
+.sleft{
+    flex:none;
+    width:33%
+}
+
+.smiddle{
+    flex:none;
+    width:33%
+}
+
+.sright{
+    flex:none;
+    width:33%
+}
+
+.title{
+    display:flex;
+    justify-content: center;
+    align-items:baseline;
+    height: 100px;
+    width: 95%;
+    background-color: purple;
+    border: 3px solid goldenrod;
+}
+
+.titleword{  
+    color: goldenrod;
+}
+
+.fixed-area {
+    position: fixed;
+    bottom: 20px;
+    height: 80%;
+    width: 200px;
+    right: 50px;
+    background-color: #5ba2ee;
+    padding: 10px;
+    border-radius: 5px;
+}
+.gameplace{
+    justify-content: center;
+    margin: 125px;
+    padding: 40px;
+    border: 8px solid rgba(58, 253, 253, 0.744);
+    width:70%;
+}
+  
+
